@@ -1,0 +1,6 @@
+@BTC_TRON_ETH_BNB_SOL_WalletAPI_HostAddress = http://localhost:5245
+
+GET {{BTC_TRON_ETH_BNB_SOL_WalletAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
