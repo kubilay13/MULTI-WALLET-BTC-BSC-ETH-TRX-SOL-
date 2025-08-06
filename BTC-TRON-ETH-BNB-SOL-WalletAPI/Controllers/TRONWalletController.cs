@@ -16,7 +16,7 @@ namespace BTC_TRON_ETH_BNB_SOL_WalletAPI.Controllers
         }
 
         [HttpGet("TRON-WALLET")]
-        public async Task<IActionResult> GetTronWallet()
+        public async Task<IActionResult> TronWallet()
         {
             try
             {

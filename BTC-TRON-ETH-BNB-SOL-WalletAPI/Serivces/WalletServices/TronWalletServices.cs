@@ -10,9 +10,11 @@ namespace BTC_TRON_ETH_BNB_SOL_WalletAPI.Serivces.WalletServices
            var address = key.GetPublicAddress();
            var privatekey = key.GetPrivateKey();
 
-            return $"Address: {address}{Environment.NewLine}Private Key: {privatekey}";
-
+            return
+                $"Tron Wallet{Environment.NewLine}" +
+                $"Address: {address}{Environment.NewLine}" +
+                $"Private Key: {privatekey}{Environment.NewLine}";
+              
         }
-
     }
 }

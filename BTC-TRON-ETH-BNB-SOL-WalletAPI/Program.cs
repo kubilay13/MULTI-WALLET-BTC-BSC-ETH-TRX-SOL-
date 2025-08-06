@@ -12,6 +12,7 @@ builder.Services.AddScoped<TronWalletServices>();
 builder.Services.AddScoped<ETHWalletServices>();
 builder.Services.AddScoped<BSCWalletServices>();
 builder.Services.AddScoped<SOLWalletServices>();
+builder.Services.AddScoped<BTCWalletServices>();
 
 var app = builder.Build();
 
