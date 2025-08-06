@@ -1,5 +1,4 @@
-﻿using Solnet.Wallet;
-using TronNet;
+﻿using TronNet;
 
 namespace BTC_TRON_ETH_BNB_SOL_WalletAPI.Serivces.WalletServices
 {

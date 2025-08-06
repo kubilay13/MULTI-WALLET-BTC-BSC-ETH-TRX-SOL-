@@ -15,7 +15,7 @@ namespace BTC_TRON_ETH_BNB_SOL_WalletAPI.Controllers
             _tronWalletServices = tronWalletServices;
         }
 
-        [HttpGet("TronWallet")]
+        [HttpGet("TRON-WALLET")]
         public async Task<IActionResult> GetTronWallet()
         {
             try
@@ -29,7 +29,7 @@ namespace BTC_TRON_ETH_BNB_SOL_WalletAPI.Controllers
             }
         }
 
-        [HttpGet("download-wallet")]
+        [HttpGet("TEON-WALLET-DOWNLOAD")]
         public async Task<IActionResult> DownloadWallet()
         {
             var content = await _tronWalletServices.GetTronWalletAsync();
