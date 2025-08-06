@@ -11,6 +11,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<TronWalletServices>();
 builder.Services.AddScoped<ETHWalletServices>();
 builder.Services.AddScoped<BSCWalletServices>();
+builder.Services.AddScoped<SOLWalletServices>();
 
 var app = builder.Build();
 
