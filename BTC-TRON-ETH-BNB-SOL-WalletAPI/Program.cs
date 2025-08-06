@@ -10,6 +10,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<TronWalletServices>();
 builder.Services.AddScoped<ETHWalletServices>();
+builder.Services.AddScoped<BSCWalletServices>();
 
 var app = builder.Build();
 
